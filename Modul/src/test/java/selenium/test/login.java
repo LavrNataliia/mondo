@@ -342,8 +342,9 @@ public class login extends TestBase {
 //                driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div[1]/div/div[2]/div/h2")).getText());
 //
 //    }
+
 //
-    
+
     @Test
     public void test013() throws Exception {
         LoginUser.SingUpBt().click();
