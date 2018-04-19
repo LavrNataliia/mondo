@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MT Sell Your Music Page Test" verbose="1" parallel="tests" thread-count="1">
+
+    <test name="Hedder">
+        <classes>
+            <class name="selenium.test.Hedder"/>
+        </classes>
+    </test>
+
+    <test name="login">
+        <classes>
+            <class name="selenium.test.login"/>
+        </classes>
+    </test>
+
+
+
+    <!--<test name="Hedder">-->
+        <!--<classes>-->
+            <!--<class name="Hedder"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
+
+
+
