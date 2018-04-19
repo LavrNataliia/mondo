@@ -237,6 +237,7 @@ public class login extends TestBase {
 
     }
 
+
     //
 //    @Test
 //    public void test009() throws Exception {
@@ -394,7 +395,7 @@ public class login extends TestBase {
 
 
     @Test
-    public void test008() throws Exception {
+    public void test015() throws Exception {
         LoginUser.SingUpBt().click();
         Assert.assertEquals("Start Selling Your Music Worldwide",
                 driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div[2]/div/div[2]/div/h2")).getText());
