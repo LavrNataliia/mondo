@@ -218,9 +218,6 @@ public class login extends TestBase {
     }
 
 
-
-
-
     @Test
     public void test008() throws Exception {
         LoginUser.SingUpBt().click();
