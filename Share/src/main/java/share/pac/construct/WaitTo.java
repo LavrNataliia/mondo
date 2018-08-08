@@ -15,7 +15,7 @@ public abstract class WaitTo extends MTConstructPage {
         super(driver);
     }
 
-    private WebDriverWait getWait(int seconds) throws Exception{
+    private WebDriverWait getWait (int seconds) throws Exception{
         return new WebDriverWait(driver, seconds);
     }
 //
